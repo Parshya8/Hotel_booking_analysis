@@ -1,0 +1,12 @@
+{
+	"name": "sharingselfir",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/0d879d95-e425-47ab-b3d2-ebcea97fc9a6/resourcegroups/Triotech/providers/Microsoft.DataFactory/factories/demoprashant84/integrationruntimes/Ir-selfhosted",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"Pro": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=Datafactoryprashant;initial catalog=DatabaseSQLService;user id=prashant8424",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlYWZlMGM5Yy1iYzAxLTQ0YzItOWQ1NC03NWE4NjBmNzQyMWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "sharingselfir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
